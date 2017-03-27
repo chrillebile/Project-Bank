@@ -16,11 +16,6 @@ public class BankAccount {
      */
     public BankAccount(String holderName, long holderId){
         this(new Customer(holderName, holderId));
-        /*
-        holder = new Customer(holderName, holderId);
-        accounts++;
-        accountNumber = accounts;
-        amount = 0;*/
     }
 
     /**
