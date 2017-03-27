@@ -13,9 +13,7 @@ public class BankApplication {
         application.run();
     }
 
-    /**
-     * Kör appen
-     */
+    /** Kör appen */
     private void run(){
         while(true){
             printMenu();

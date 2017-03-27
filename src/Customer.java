@@ -10,7 +10,7 @@ public class Customer {
 
     /**
      * Skapar en kund (kontoinnehavare) med namnet ’name’ och id-nummer ’idNr’.
-     * Kunden tilldelas också ett unikt kundnummer.
+     * Kunden tilldelas också ett unikt kundnummer (customerNr).
      */
     public Customer(String name, long idNr){
         this.name = name;

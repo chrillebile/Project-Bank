@@ -8,7 +8,6 @@ public class BankAccount {
     private int accountNumber;
     private double amount;
 
-
     /**
      * Skapar ett nytt bankkonto åt en innehavare med namn ’holderName’ och
      * id ’holderId’. Kontot tilldelas ett unikt kontonummer och innehåller
